@@ -1,0 +1,66 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: rgba(83, 83, 83, 0.123);
+}
+
+.top-part {
+  height: 16.6rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 1rem;
+}
+.bottom-part {
+  height: 16.6rem;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+section {
+  background-color: #fff;
+  width: 20%;
+  height: 8rem;
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  display: none;
+}
+.title {
+  margin-top: 3rem;
+  font-size: 1.5rem;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+.keyCode {
+  margin-top: 1rem;
+  font-size: 10rem;
+  font-family: Arial, Helvetica, sans-serif;
+  display: none;
+}
+.event-name {
+  background-color: rgba(84, 234, 245, 0.767);
+  border-bottom: 1.5px solid rgb(29, 186, 248);
+  height: 30%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.event-name p {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.event-disc {
+  height: 70%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.event-disc p {
+  font-size: 1.5rem;
+  font-family: sans-serif;
+}
